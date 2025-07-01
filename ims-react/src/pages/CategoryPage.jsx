@@ -57,7 +57,7 @@ const CategoryPage = () => {
       window.location.reload(); //relode page
     } catch (error) {
       showMessage(
-        error.response?.data?.message || "Error Loggin in a User: " + error
+        error.response?.data?.message || "Error getting supplier: " + error
       );
     }
   };
