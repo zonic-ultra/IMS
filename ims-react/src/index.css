@@ -280,17 +280,24 @@ button[type="submit"]:hover {
   padding: 20px;
 }
 
+.supplier-header h1 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, #2c3e50, #4a235a);
+  background-clip: text;
+}
+
 .supplier-header {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-  color: #008080;
+  color: #4a235a;
   margin-left: 10px;
 }
 
 .supplier-header button {
   padding: 12px 12px;
-  background-color: #008080;
+  background-color: #4a235a;
   font-size: 16px;
   color: white;
   border: none;
@@ -316,17 +323,17 @@ button[type="submit"]:hover {
   background-color: #f9f9f9;
   border-bottom: 1px solid #eee;
   border-radius: 10px;
-  color: #2f4f4f;
   font-weight: 550;
+  color: #4a235a;
 }
 
 .supplier-item:hover {
-  background-color: #f9ffff;
+  background-color: #dbeaea;
 }
 
 .supplier-actions button {
   margin-left: 10px;
-  background-color: #008080;
+  background-color: #4a235a;
   font-size: 16px;
   padding: 10px 20px;
   color: white;
@@ -345,14 +352,17 @@ button[type="submit"]:hover {
   width: 50%;
   margin: 0 auto; /* Center the form on the page */
   margin-top: 3rem;
-  box-shadow: 0 1px 1px #008080;
+  box-shadow: 0 1px 1px #4a235a;
 }
 
 .supplier-form-page h1 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background: linear-gradient(135deg, #2c3e50, #4a235a);
+  background-clip: text;
   font-size: 2rem;
   font-weight: bold;
-  color: #008080;
+  /* color: #008080; */
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -365,7 +375,7 @@ button[type="submit"]:hover {
   display: block;
   font-size: 1rem;
   font-weight: bold;
-  color: #2f4f4f;
+  color: #4a235a;
   margin-bottom: 8px;
 }
 
@@ -386,7 +396,7 @@ button[type="submit"]:hover {
 
 .supplier-form-page button[type="submit"] {
   padding: 13px 20px;
-  background-color: #008080;
+  background-color: #4a235a;
   color: white;
   border: none;
   border-radius: 5px;
@@ -398,7 +408,9 @@ button[type="submit"]:hover {
 }
 
 .supplier-form-page button[type="submit"]:hover {
-  background-color: #2f4f4f;
+  background: linear-gradient(135deg, #ff00ff, #4a235a);
+
+  /* background-color: #2f4f4f; */
 }
 
 /* PRODUCT STYLING */
